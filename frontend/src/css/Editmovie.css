@@ -1,0 +1,56 @@
+.edit-movie-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    font-family: "Poppins", sans-serif;
+    color: #333;
+  }
+  
+  .edit-movie-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #6c5ce7;
+    font-size: 2rem;
+  }
+  
+  .edit-movie-container input,
+  .edit-movie-container textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 1rem;
+    border: 2px solid #dfe6e9;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-movie-container input:focus,
+  .edit-movie-container textarea:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.4);
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .edit-movie-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6c5ce7, #a29bfe);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .edit-movie-container button:hover {
+    background: linear-gradient(to right, #a29bfe, #6c5ce7);
+    transform: translateY(-2px);
+  }
+  
